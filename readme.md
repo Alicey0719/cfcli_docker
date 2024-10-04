@@ -20,5 +20,5 @@ accounts:
 cfcli ls
 cfcli add -t A --ttl 60 test2 127.0.0.1
 cfcli add -t CNAME --activate test3 hogehoge.com
-cfcli -d 0jp.cc ls
+cfcli -d other-domain ls
 ```
