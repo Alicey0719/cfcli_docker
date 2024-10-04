@@ -15,6 +15,12 @@ accounts:
         domain: 
 ```
 
+## run
+```
+docker compose up -d
+docker exec -it cfcli sh
+```
+
 ## よく使うやつ
 ```
 cfcli ls
