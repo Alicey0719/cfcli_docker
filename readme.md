@@ -5,7 +5,7 @@ https://github.com/danielpigott/cloudflare-cli
 - zone zone read
 - zone dns edit
 
-## create cfcli.yml
+## create data/.cfcli.yml
 ```
 defaults:
     account: alicey

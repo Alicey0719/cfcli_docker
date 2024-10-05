@@ -2,7 +2,8 @@ services:
   cfcli:
     image: dpig/cloudflare-cli:latest
     container_name: cfcli
+    user: node:node
     volumes:
-      - cfcli.yml:~/.cfcli.yml
+      - './data:/home/node'
     entrypoint: ["/bin/sh"]
     tty: true
